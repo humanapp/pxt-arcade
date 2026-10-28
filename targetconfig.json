@@ -1,6 +1,21 @@
 {
     "packages": {
         "approvedRepoLib": {
+            "wendoo-lang/pxt-wendoo": {
+                "simx": {
+                    "sha": "0deec5a3702e51b9e3eebe631bbd65b50cffd492",
+                    "devUrl": "http://localhost:5175",
+                    "index": "simx/index.html",
+                    "aspectRatio": 6.6,
+                    "allowPopups": true,
+                    "allowDownloads": true,
+                    "allowFileWrite": true,
+                    "allowAssetRead": true,
+                    "allowEditorTab": true,
+                    "hideInFullscreen": true,
+                    "editor": { "index": "index.html", "label": "Wendoo", "icon": "assets/brand/wendoo-mark-small.svg", "creates": ["wendoo.CompiledBrainRegistration"] }
+                }
+            },
             "jwunderl/arcade-sprite-util": {
                 "preferred": true,
                 "tags": [ "Sprites" ]
